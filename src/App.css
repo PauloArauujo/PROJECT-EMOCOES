@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0px;
+}
+
+body {
+  background-color: black;
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+}
+
+.emocao {
+  color: #ffffff;
+  width: 15%;
+  text-align: center;
+  display: flex;
+  margin: 28px 10px;
+}
+
+.emocao img {
+  width: 100%;
+  height: 100%;
+  
+}
+.section-itens {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vazio {
+  margin-right: 40px;
+  margin-left: 50px;
+}
+.emotion{
+  width: 80px;
+  height: 80PX;
+}
+
+.btn {
+  width: 30%;
+  height: 70px;
+  font-size: 30px;
+  margin: 2px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;     
+  border: none;  
+  font-family: "Oswald", sans-serif;
+  cursor: pointer;
+}
+
+.alegre {
+  background-color: #EDB628;
+}
+
+.triste {
+  background-color: #3B5CA5;
+}
+
+.nojento{
+  background-color: #59A445;
+}
+.medroso{
+  background-color: #693697;
+}
+.raivoso{
+  background-color: #9d0a05;
+}
+.invejoso{
+  background-color: #038e86;
+}
+.ansioso{
+  background-color: #e57c3b;
+}
+.envergonhado{
+  background-color: #d9459b;
+}
+.entediado{
+  background-color: #554ccc;
+}
+
+.div-btns{
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 45%;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 10px white;
+}
+h1{
+  font-size: 250%;
+  font-family: "Oswald", sans-serif;
+}
+.sub-title {
+  border-left: white solid 4px;
+  padding-left: 8px;
+}
+
+.titulo-card {
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+.emocao1 img{
+  border: 3px solid white;
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    width: 100%;
+  }
+}
+
